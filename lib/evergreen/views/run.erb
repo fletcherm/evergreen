@@ -2,13 +2,13 @@
 <script type="text/javascript" src="<%= url("/jasmine/jasmine-html.js") %>"></script>
 <script type="text/javascript" src="<%= url("/resources/json2.js") %>"></script>
 <script type="text/javascript" src="<%= url("/resources/run.js") %>"></script>
-<script type="text/javascript">
-  // <![CDATA[
-      <% @suite.helpers.each do |helper| %>
-        <%= render_spec(helper) %>;
-      <% end %>
-  // ]]>
-</script>
+<% @suite.helpers.each do |helper| %>
+  <script type="text/javascript">
+    // <![CDATA[
+      <%= render_spec(helper) %>;
+    // ]]>
+  </script>
+<% end %>
 <script type="text/javascript">
   // <![CDATA[
       <% if @spec %>
