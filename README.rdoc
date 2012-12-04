@@ -18,13 +18,12 @@ isolation from your application. If you need a tool that tests how your
 JavaScript integrates with your application you should use an integration
 testing framework, such as {Capybara}[http://github.com/jnicklas/capybara].
 
-== Community
+== Maintenance note
 
-Please ask questions on the {mailing
-list}[http://groups.google.com/group/ruby-evergreen].  If you have found a
-reproducible error, please {file it on
-GitHub}[https://github.com/jnicklas/evergreen/issues]. Do not contact the
-maintainers directly.
+Evergreen is currently
+{unmaintained}[https://groups.google.com/d/msg/ruby-evergreen/4iEprh23mS0/aHMTaD6DrHQJ].
+If you would like to take over maintenance of the project, please
+{contact me}[http://github.com/jnicklas] directly.
 
 == Installation
 
